@@ -8,7 +8,7 @@ export const siteData = {
     email: "daniele@danielemaggiolini.com",
     phone: "+39 392 328 7370",
     website: "www.danielemaggiolini.com",
-    linkedin: "https://www.linkedin.com/in/daniele-maggiolini/",
+    linkedin: "https://www.linkedin.com/in/daniele-maggiolini-erp",
     languages: ["Italiano (Madrelingua)", "Inglese", "Spagnolo"],
     yearsExperience: 3,
     bio: "Consulente funzionale Microsoft Dynamics 365 Finance & Operations con 3 anni di esperienza su progetti mid-to-large enterprise. Specializzato in Supply Chain Management, Warehouse Management e Operations.",

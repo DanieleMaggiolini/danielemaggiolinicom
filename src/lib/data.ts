@@ -8,7 +8,7 @@ export const siteData = {
     email: "daniele@danielemaggiolini.com",
     phone: "+39 392 328 7370",
     website: "www.danielemaggiolini.com",
-    linkedin: "https://www.linkedin.com/in/daniele-maggiolini/",
+    linkedin: "https://www.linkedin.com/in/daniele-maggiolini-erp",
     languages: ["Italiano (Madrelingua)", "Inglese", "Spagnolo"],
     yearsExperience: 3,
     bio: "Consulente funzionale Microsoft Dynamics 365 Finance & Operations con 3 anni di esperienza su progetti mid-to-large enterprise. Specializzato in Supply Chain Management, Warehouse Management e Operations.",
@@ -79,14 +79,6 @@ Disponibile per ingaggi da remoto o in sede con rimborso spese. Aperto a collabo
   ],
 
   skills: {
-    core: [
-      { name: "Microsoft Dynamics 365 F&O", level: 90 },
-      { name: "Supply Chain Management", level: 88 },
-      { name: "Warehouse Management (WMS)", level: 85 },
-      { name: "Business Process Analysis", level: 82 },
-      { name: "Functional Consulting", level: 85 },
-      { name: "AMS & Ticket Management", level: 88 },
-    ],
     modules: [
       "Accounts Payable & Receivable",
       "Warehouse Management",
@@ -96,12 +88,6 @@ Disponibile per ingaggi da remoto o in sede con rimborso spese. Aperto a collabo
       "Transportation & Shipping",
       "Security & Roles",
       "Intercompany Flows",
-    ],
-    tools: [
-      { name: "Azure DevOps", category: "Project Management" },
-      { name: "Microsoft D365 F&O", category: "ERP Platform" },
-      { name: "WMS Devices", category: "Warehouse Tech" },
-      { name: "Microsoft 365", category: "Productivity" },
     ],
     specializations: [
       "Security Roles Governance",

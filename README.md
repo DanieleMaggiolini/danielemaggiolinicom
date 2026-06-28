@@ -37,11 +37,10 @@ Un biglietto da visita digitale premium, costruito per convincere aziende manifa
 | Hero | `HeroSection` | Headline, posizionamento, CTA, stats |
 | Chi sono | `AboutSection` | Bio professionale + card profilo |
 | Servizi | `ServicesSection` | 4 servizi con dettagli |
-| Competenze | `SkillsSection` | Skill bar + moduli D365 + tool |
+| Competenze | `SkillsSection` | Focus D365 F&O + moduli + specializzazioni |
 | Esperienza | `ExperienceSection` | Timeline lavoro + formazione + lingue |
 | Progetti | `ProjectsSection` | Case study (Security Roles Review) |
 | Metodo | `WorkMethodSection` | 4 fasi del processo di lavoro |
-| Tecnologie | `TechSection` | Stack D365 F&O dettagliato |
 | Perché me | `WhyMeSection` | 6 punti di forza |
 | FAQ | `FaqSection` | Accordion con 6 domande |
 | CTA finale | `CtaSection` | Contatti + call to action |
@@ -119,7 +118,7 @@ src/app/globals.css   →  variabili CSS, classi utility, base styles
 
 ⚠️ **Segnaposti da verificare** — alcuni dettagli non erano presenti nei documenti forniti e sono stati impostati con valori prudenti o segnalati:
 
-- **URL LinkedIn**: inserito un placeholder (`linkedin.com/in/daniele-maggiolini/`). Da sostituire con il profilo reale.
+- **URL LinkedIn**: profilo reale impostato (`https://www.linkedin.com/in/daniele-maggiolini-erp`).
 - **Cliente del progetto Security Roles**: indicato come "Cliente Privato" per riservatezza (il documento non specificava il nome).
 - **Date freelance**: i documenti riportavano sia "apr 2026" che "Apr 2025" come inizio dell'attività freelance. È stata usata la versione più recente e coerente con il resto della timeline (**Apr 2026**). Da confermare.
 - **Immagine profilo**: nel CV è presente una foto, ma non è stata estratta nel sito (si usa un monogramma "DM"). Può essere aggiunta in `AboutSection`.

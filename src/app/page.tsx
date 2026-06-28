@@ -7,7 +7,6 @@ import SkillsSection from "@/components/sections/SkillsSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import WorkMethodSection from "@/components/sections/WorkMethodSection";
-import TechSection from "@/components/sections/TechSection";
 import WhyMeSection from "@/components/sections/WhyMeSection";
 import FaqSection from "@/components/sections/FaqSection";
 import CtaSection from "@/components/sections/CtaSection";
@@ -24,7 +23,6 @@ export default function Home() {
         <ExperienceSection />
         <ProjectsSection />
         <WorkMethodSection />
-        <TechSection />
         <WhyMeSection />
         <FaqSection />
         <CtaSection />

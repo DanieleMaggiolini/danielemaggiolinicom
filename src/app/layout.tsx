@@ -124,7 +124,7 @@ const structuredData = {
         "@type": "Organization",
         name: "Freelance",
       },
-      sameAs: ["https://www.linkedin.com/in/daniele-maggiolini/"],
+      sameAs: ["https://www.linkedin.com/in/daniele-maggiolini-erp"],
     },
     {
       "@type": "WebSite",

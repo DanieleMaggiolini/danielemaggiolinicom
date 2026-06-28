@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { ArrowRight, MapPin, Mail } from "lucide-react";
 import { siteData } from "@/lib/data";
 
@@ -14,6 +14,19 @@ export default function HeroSection() {
 
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const translateY = useTransform(scrollYProgress, [0, 0.5], [0, -60]);
+
+  // Il fade/parallax sullo scroll funziona bene su desktop, dove l'hero entra
+  // in una sola viewport. Su mobile il contenuto è più alto dello schermo: la
+  // dissolvenza scatterebbe mentre si sta ancora leggendo la parte bassa. Per
+  // questo lo abilitiamo solo da >= md (768px).
+  const [enableScrollFade, setEnableScrollFade] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px)");
+    const update = () => setEnableScrollFade(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
 
   const handleScroll = (href: string) => {
     const target = document.querySelector(href);
@@ -60,7 +73,7 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-[#0a0a0f] to-transparent pointer-events-none" />
 
       <motion.div
-        style={{ opacity, y: translateY }}
+        style={enableScrollFade ? { opacity, y: translateY } : undefined}
         className="container relative z-10 pt-28 pb-20"
       >
         <div className="max-w-[820px]">

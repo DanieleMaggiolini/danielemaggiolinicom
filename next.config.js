@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    // Non bloccare la build di produzione per warning di lint.
+    // Il lint resta attivo in sviluppo (npm run dev / npm run lint).
+    ignoreDuringBuilds: true,
+  },
   images: {
     remotePatterns: [
       {

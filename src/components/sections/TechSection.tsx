@@ -89,9 +89,9 @@ export default function TechSection() {
                   Microsoft Dynamics 365 Finance & Operations
                 </h3>
                 <p className="text-text-secondary text-body-sm max-w-[560px]">
-                  Piattaforma ERP enterprise Microsoft. Specializzazione esclusiva sull'ecosistema
+                  Piattaforma ERP enterprise Microsoft. Specializzazione esclusiva sull&apos;ecosistema
                   D365 F&O: dalla configurazione funzionale alla gestione della sicurezza,
-                  dall'ottimizzazione SCM al testing dei Continuous Update.
+                  dall&apos;ottimizzazione SCM al testing dei Continuous Update.
                 </p>
               </div>
             </div>

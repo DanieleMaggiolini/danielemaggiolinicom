@@ -62,7 +62,7 @@ export default function CtaSection() {
           </h2>
 
           <p className="text-text-secondary text-body-lg max-w-[520px] mx-auto mb-10 leading-relaxed">
-            Che si tratti di un'implementazione, di supporto AMS o di un intervento mirato
+            Che si tratti di un&apos;implementazione, di supporto AMS o di un intervento mirato
             su SCM e sicurezza, sono a disposizione per capire come posso essere utile.
           </p>
 
